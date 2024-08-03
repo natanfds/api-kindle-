@@ -6,4 +6,5 @@ export const ValidateEnv = Joi.object({
   EMAIL_USER: Joi.string().required(),
   EMAIL_PASS: Joi.string().required(),
   EMAIL_FROM: Joi.string().required(),
+  API_PORT: Joi.number(),
 });

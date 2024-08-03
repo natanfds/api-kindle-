@@ -15,6 +15,7 @@ $ npm install
 
 ```bash
 # development
+$ npm run build
 $ npm run start
 
 # watch mode
